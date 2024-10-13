@@ -57,7 +57,7 @@ app.get("/logout", (req, res) => {
 app.use("/api", auth, apiRouter);
 
 app.get("*", async (req, res) => {
-  res.sendFile(path.join(__dirname, "./build/index.html"));
+  res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
 mongoose
