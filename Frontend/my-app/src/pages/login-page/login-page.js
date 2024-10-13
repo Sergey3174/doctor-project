@@ -100,6 +100,8 @@ export const LoginPage = ({ className }) => {
 					</div>
 				)}
 			</form>
+			<div>Логин: mail@mail.ru</div>
+			<div>Пароль: qwerty</div>
 		</div>
 	);
 };

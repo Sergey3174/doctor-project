@@ -13,11 +13,11 @@ const { addApplication, getApplications } = require("./application.controller");
 const port = 3000;
 const app = express();
 
-app.set("views", "build");
+app.set("views", "public");
 app.use(cors({ origin: "http://localhost:3001", credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
-app.use(express.static(path.resolve(__dirname, "build")));
+app.use(express.static(path.resolve(__dirname, "public")));
 app.use(express.urlencoded({ extended: true }));
 
 app.post("/login", async (req, res) => {
