@@ -1,0 +1,34 @@
+.form-container {
+			width: 30%;
+            background-color: lightblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border: 2px solid #000;
+			flex-direction: column;
+			padding: 10px;
+}
+
+.form-container form {
+	box-sizing: content-box;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 70%;
+}
+
+input {
+	font-family: inherit;
+	height: 25px;
+}
+
+.description-problem {
+	font-family: inherit;
+    font-style: normal;
+    height: 20vh;
+}
+
+button {
+	height: 30px;
+}

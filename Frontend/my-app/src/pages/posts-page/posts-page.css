@@ -1,0 +1,41 @@
+.posts-container{
+height: 80vh;
+width: 70%;
+}
+
+.table-header{
+	display: flex;
+	font-weight: bold;
+
+}
+
+.header-cell{
+	flex: 1;
+	cursor: pointer;
+	border: 1px solid #000;
+	padding: 5px;
+}
+
+.table-row{
+	display: flex
+}
+
+.table-cell {
+	border: 1px solid #000;
+	flex: 1;
+	padding: 5px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding: 20px;
+}
+span {
+	position: absolute;
+	right: 20px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
